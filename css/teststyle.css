@@ -1,0 +1,61 @@
+body{
+    padding-top: none;
+}
+
+div.page-container{
+    padding-top: 44px;
+}
+
+nav.navbar{
+    position: fixed;
+    height: 40px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    z-index: 1;
+}
+ul.navbar{
+    padding: 20px;
+}
+
+div.container{
+    background: #FFFFFF;
+    border: 2px solid cadetblue;
+    border-radius: 5px;
+    margin: 5px 5px 5px 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+li.list-group-item{
+    padding-left: 25px 150px;
+    border: none;
+}
+li.list-group-item:hover{
+    color: blueviolet;
+    cursor: pointer;
+}
+
+li.collapse-list{
+}
+
+.display_horizontal{
+    display: inline-block;
+    overflow: hidden;
+    background-color: #333;
+}
+
+div.inline-container{
+    display: inline-block;
+    padding-left: 25px;
+}
+
+div.list-group-item{
+    
+}
+
+.view-heading{
+    color:cadetblue;
+    text-align: left;
+    background-color:azure;
+}

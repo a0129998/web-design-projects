@@ -1,0 +1,21 @@
+.red{
+    background-color: red;
+}
+
+body{
+    background-image: url(../img/maxresdefault.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+div.top-padding{
+    height: 100px;
+}
+
+
+a.to-top-button{
+    position: fixed;
+    z-index: 1;
+    bottom: 5px;
+    right: 5px;
+}
