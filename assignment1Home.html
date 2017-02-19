@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta name="description" content="assignment 1 home">
+        <meta name="author" content="A0129998B">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="css/scrolling-nav.css">
+        <link rel="stylesheet" type="text/css" href="css/assignment1custom.css">
+        <title>Welcome</title>
+    </head>
+        
+    <body>
+        <!--scroll back to top-->
+        <a class="to-top-button btn btn-primary page-scroll" href="#page-top">Back to top</a>
+        
+        <div class="container container-block">
+            <div class="row">
+                <div class="top-padding" id="page-top"></div>
+                <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+                    <div class="navbar-header">
+                        <a class="navbar-brand page-scroll" href="#page-top">Sleep Buddy</a>
+                    </div>
+                    
+                    <button type ="button" class="navbar-toggle" data-toggle="collapse" data-target="#quick-nav-buttons">
+                        <span class="sr-only">toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="quick-nav-buttons">
+                        <!--nav bar contents-->
+                        <ul class="nav navbar-nav">
+                            <li class="hidden active">
+                                <a class="page-scroll" href="#page-top"></a>
+                            </li>
+                            <li><!--some concept pictures and retorical qns-->
+                                <a class="page-scroll" href="#home">About</a>
+                            </li>
+                            <li><!--Problem discription and target users-->
+                                <a class="page-scroll" href="#problem">The Problem</a>
+                            </li>
+                            
+                            <li><!--idea description-->
+                                <a class="page-scroll" href="#idea-description">The Idea</a>
+                            </li>
+                            
+                            <li><!--link to survey-->
+                                <a class="page-scroll" href="#survey">Survey</a>
+                            </li>
+                            <li><!--input validation-->
+                                <a class="page-scroll" href="#quick-feedback">Quick FeedBack</a>
+                            </li>
+                            <li>
+                                <a class="page-scroll" href="#members">Group Members</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div id="home" class="home-section">
+                <div class="row panel-heading">
+                    <h2>Sleep Buddy</h2>
+                    <button id="hide-home" class="btn btn-primary " type="button" >Hide gallery</button>
+                </div>
+                <div id="carousel" class="carousel slide" data-ride="carousel-data">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel" data-slide-to="1"></li>
+                        <li data-target="#carousel" data-slide-to="2"></li>
+                    </ol>
+                    
+                    <!--wrapper for slides-->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="img/sleepbuddy.png" alt="...">
+                            <div class="carousel-caption">Sleep Buddy aims to help people kick the bad habbit of oversleeping, without reducing the amount of sleep you get.</div>
+                        </div>
+                        <div class="item">
+                            <img src="img/idea.png" alt="...">
+                            <div class="carousel-caption">So that you will always be alert when you are awake, and be more productive.</div>
+                        </div>
+                        <div class="item">
+                            <img src="img/habit.png" alt="...">
+                            <div class="carousel-caption">The central idea is just to kick the bad habit, and we'll help you.</div>
+                        </div>
+                    </div>
+                        <!-- Controls -->
+                    <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="row problem-section" id="problem">
+                <h2 class="panel-heading"> The Problem</h2>
+                <p class="panel-body col-sm-8">People prefer to oversleep when they are supposed to get up, most probably from not sleeping early enough (playing computer games, reading books or other activities which caused them to lose track of time the previous night) or being deeply ingrained in bad sleeping habits such as instinctively snoozing the alarm. This may result in them missing important events due to being late.</p>
+                
+            </div>
+            
+            <div class="row idea-description-section" id="idea-description">
+                <h2 class="panel-heading">The Idea</h2>
+                <div class="panel-group">
+                    <h3 class="panel-heading">Target users:</h3>
+                    <p class="panel-body">People who have problem with their sleep schedule, but wants to make a change and are motivated to take action.</p>
+                        
+                    <h3 class="panel-heading">The Solution:</h3>
+                    <p class="panel-body">A “Sleep buddy” phone application which provides users with information and the best ways to overcome their sleep problem. It will also create small and easily achievable milestone goals for the user to accomplish and make them more aware of their ability to change for the better when they do so. This will help generate intrinsic motivation for them to change their sleeping habits. By providing step by step guides to users which strive to make small changes to the user’s sleeping habits one at a time, the app hopes to help the user make a permanent alteration to the user’s sleeping habits. These guides will begin with the first step of helping the user in sleeping early and consequently, waking up earlier.</p>
+                </div>
+            </div>
+            <div class="row survey-section" id="survey">
+                <h2 class="panel-heading"> Survey</h2>
+                <a class="text-center center-block" href="https://goo.gl/forms/al4JNPfUxeFSlMx02"><h2> Click here to do help us do the survey!</h2></a>
+            </div>
+            <div class="row quick-feed-back-section" id="quick-feedback">
+                <h2>Add a quick Feedback</h2>
+                <form name="form-validation">
+                    <div class="form-group">
+                        <textarea type="text" id="comment-input" class="form-control" rows="3" id="quick-comment" placeholder="comment..."></textarea>
+                        <button id="form-validation-button" type="button" type="button" class="btn btn-primary bg-right" onclick="return validate_form()">submit</button>
+                        <p id="form-validation-text" class="alert alert-warning hidden" ></p>
+                    </div>
+                </form>
+            </div>
+            <div class="row members-section list-group" id="members">
+                <h2 class="panel-heading">Members</h2>
+                <ul class="panel-body">
+                    <li class="list-group-item text-center">Lu Yuehan (A0119387U)</li>
+                    <li class="list-group-item text-center">Chow Yuan Bin (A0108304U)</li>
+                    <li class="list-group-item text-center">Qian Ziyuan (A0119498M)</li>
+                    <li class="list-group-item text-center">Wu XiaoXiao (A0129998B)</li>
+                    <li class="list-group-item text-center">Zeng Qiyuan (A0111661U)</li>
+                </ul>
+            </div>
+        </div>
+        
+        <script src="js/jquery-3.1.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/scrolling-nav.js"></script>
+        <script src="js/jquery.easing.min.js"></script>
+
+       
+        <script>
+            $('#hide-home').click(function(){
+                console.log('running');
+                if($('#carousel').is(':visible')){
+                    $('#hide-home').text("Show gallery");
+                    $('#carousel').hide();
+                }else{
+                    $('#carousel').show();
+                    $('#hide-home').text("Hide gallery");
+                }
+            });
+            
+            function validate_form(){
+                var commentText = $("#comment-input").val();
+                //console.log(commentText);
+                if(commentText.length >0){
+                    $("#form-validation-text").text("Sorry, this is just the form validation component with no back end, so you can't actually enter a comment :3 (but try not inputing any value and press submit)");
+                    //console.log("1");
+                }else{
+                    $("#form-validation-text").text("Please enter some text!");
+                    //console.log("2");
+                }
+                $("#form-validation-text").removeClass("hidden");
+                //console.log($("#form-validation-text").text());
+            }
+        </script>
+        
+    </body>
+</html>
